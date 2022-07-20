@@ -1,1 +1,1 @@
-# japan-lost-generation
+# Japan's Lost Generation
