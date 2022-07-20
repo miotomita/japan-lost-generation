@@ -1,0 +1,1 @@
+# japan-lost-generation
