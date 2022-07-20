@@ -1,203 +1,102 @@
-year,gender,age,population,lost_gen,babyboomers,generation
-2022,M,0,418.5885,False,False,other
-2022,F,0,418.5885,False,False,other
-2022,M,1,422.3065,False,False,other
-2022,F,1,422.3065,False,False,other
-2022,M,2,422.656,False,False,other
-2022,F,2,422.656,False,False,other
-2022,M,3,430.0435,False,False,other
-2022,F,3,430.0435,False,False,other
-2022,M,4,446.6255,False,False,other
-2022,F,4,446.6255,False,False,other
-2022,M,5,472.0745,False,False,other
-2022,F,5,472.0745,False,False,other
-2022,M,6,498.6245,False,False,other
-2022,F,6,498.6245,False,False,other
-2022,M,7,508.128,False,False,other
-2022,F,7,508.128,False,False,other
-2022,M,8,514.9455,False,False,other
-2022,F,8,514.9455,False,False,other
-2022,M,9,521.8975,False,False,other
-2022,F,9,521.8975,False,False,other
-2022,M,10,525.7495,False,False,other
-2022,F,10,525.7495,False,False,other
-2022,M,11,535.1305,False,False,other
-2022,F,11,535.1305,False,False,other
-2022,M,12,544.148,False,False,other
-2022,F,12,544.148,False,False,other
-2022,M,13,551.2155,False,False,other
-2022,F,13,551.2155,False,False,other
-2022,M,14,556.7375,False,False,other
-2022,F,14,556.7375,False,False,other
-2022,M,15,557.5255,False,False,other
-2022,F,15,557.5255,False,False,other
-2022,M,16,554.132,False,False,other
-2022,F,16,554.132,False,False,other
-2022,M,17,558.7955,False,False,other
-2022,F,17,558.7955,False,False,other
-2022,M,18,572.3695,False,False,other
-2022,F,18,572.3695,False,False,other
-2022,M,19,586.2335,False,False,other
-2022,F,19,586.2335,False,False,other
-2022,M,20,599.554,False,False,other
-2022,F,20,599.554,False,False,other
-2022,M,21,613.289,False,False,other
-2022,F,21,613.289,False,False,other
-2022,M,22,617.635,False,False,other
-2022,F,22,617.635,False,False,other
-2022,M,23,617.837,False,False,other
-2022,F,23,617.837,False,False,other
-2022,M,24,621.5865,False,False,other
-2022,F,24,621.5865,False,False,other
-2022,M,25,622.9625,False,False,other
-2022,F,25,622.9625,False,False,other
-2022,M,26,620.325,False,False,other
-2022,F,26,620.325,False,False,other
-2022,M,27,626.2075,False,False,other
-2022,F,27,626.2075,False,False,other
-2022,M,28,627.2695,False,False,other
-2022,F,28,627.2695,False,False,other
-2022,M,29,621.0315,False,False,other
-2022,F,29,621.0315,False,False,other
-2022,M,30,629.1565,False,False,other
-2022,F,30,629.1565,False,False,other
-2022,M,31,631.607,False,False,other
-2022,F,31,631.607,False,False,other
-2022,M,32,637.2015,False,False,other
-2022,F,32,637.2015,False,False,other
-2022,M,33,656.832,False,False,other
-2022,F,33,656.832,False,False,other
-2022,M,34,673.471,False,False,other
-2022,F,34,673.471,False,False,other
-2022,M,35,677.1095,False,False,other
-2022,F,35,677.1095,False,False,other
-2022,M,36,689.6895,False,False,other
-2022,F,36,689.6895,False,False,other
-2022,M,37,710.474,False,False,other
-2022,F,37,710.474,False,False,other
-2022,M,38,721.7275,False,False,other
-2022,F,38,721.7275,False,False,other
-2022,M,39,726.587,False,False,other
-2022,F,39,726.587,False,False,other
-2022,M,40,731.826,False,False,other
-2022,F,40,731.826,False,False,other
-2022,M,41,755.1195,False,False,other
-2022,F,41,755.1195,False,False,other
-2022,M,42,787.933,True,False,Lost generation
-2022,F,42,787.933,True,False,Lost generation
-2022,M,43,818.545,True,False,Lost generation
-2022,F,43,818.545,True,False,Lost generation
-2022,M,44,848.246,True,False,Lost generation
-2022,F,44,848.246,True,False,Lost generation
-2022,M,45,879.102,True,False,Lost generation
-2022,F,45,879.102,True,False,Lost generation
-2022,M,46,917.1645,True,False,Lost generation
-2022,F,46,917.1645,True,False,Lost generation
-2022,M,47,964.5375,True,False,Lost generation
-2022,F,47,964.5375,True,False,Lost generation
-2022,M,48,1005.2485,True,False,Lost generation
-2022,F,48,1005.2485,True,False,Lost generation
-2022,M,49,1002.25,True,False,Lost generation
-2022,F,49,1002.25,True,False,Lost generation
-2022,M,50,968.5185,True,False,Lost generation
-2022,F,50,968.5185,True,False,Lost generation
-2022,M,51,935.104,True,False,Lost generation
-2022,F,51,935.104,True,False,Lost generation
-2022,M,52,907.0575,True,False,Lost generation
-2022,F,52,907.0575,True,False,Lost generation
-2022,M,53,893.998,False,False,other
-2022,F,53,893.998,False,False,other
-2022,M,54,903.298,False,False,other
-2022,F,54,903.298,False,False,other
-2022,M,55,794.97,False,False,other
-2022,F,55,794.97,False,False,other
-2022,M,56,758.6345,False,False,other
-2022,F,56,758.6345,False,False,other
-2022,M,57,831.076,False,False,other
-2022,F,57,831.076,False,False,other
-2022,M,58,803.9585,False,False,other
-2022,F,58,803.9585,False,False,other
-2022,M,59,771.2505,False,False,other
-2022,F,59,771.2505,False,False,other
-2022,M,60,746.322,False,False,other
-2022,F,60,746.322,False,False,other
-2022,M,61,732.905,False,False,other
-2022,F,61,732.905,False,False,other
-2022,M,62,728.4475,False,False,other
-2022,F,62,728.4475,False,False,other
-2022,M,63,727.9195,False,False,other
-2022,F,63,727.9195,False,False,other
-2022,M,64,707.095,False,False,other
-2022,F,64,707.095,False,False,other
-2022,M,65,699.1045,False,False,other
-2022,F,65,699.1045,False,False,other
-2022,M,66,721.8175,False,False,other
-2022,F,66,721.8175,False,False,other
-2022,M,67,727.469,False,False,other
-2022,F,67,727.469,False,False,other
-2022,M,68,730.8155,False,False,other
-2022,F,68,730.8155,False,False,other
-2022,M,69,756.5045,False,False,other
-2022,F,69,756.5045,False,False,other
-2022,M,70,791.599,False,False,other
-2022,F,70,791.599,False,False,other
-2022,M,71,836.565,False,False,other
-2022,F,71,836.565,False,False,other
-2022,M,72,922.079,False,True,Babyboomers
-2022,F,72,922.079,False,True,Babyboomers
-2022,M,73,978.8395,False,True,Babyboomers
-2022,F,73,978.8395,False,True,Babyboomers
-2022,M,74,950.115,False,True,Babyboomers
-2022,F,74,950.115,False,True,Babyboomers
-2022,M,75,783.0655,False,True,Babyboomers
-2022,F,75,783.0655,False,True,Babyboomers
-2022,M,76,599.6595,False,True,Babyboomers
-2022,F,76,599.6595,False,True,Babyboomers
-2022,M,77,592.562,False,True,Babyboomers
-2022,F,77,592.562,False,True,Babyboomers
-2022,M,78,635.1025,False,False,other
-2022,F,78,635.1025,False,False,other
-2022,M,79,632.766,False,False,other
-2022,F,79,632.766,False,False,other
-2022,M,80,615.8465,False,False,other
-2022,F,80,615.8465,False,False,other
-2022,M,81,567.829,False,False,other
-2022,F,81,567.829,False,False,other
-2022,M,82,485.4925,False,False,other
-2022,F,82,485.4925,False,False,other
-2022,M,83,428.308,False,False,other
-2022,F,83,428.308,False,False,other
-2022,M,84,409.0995,False,False,other
-2022,F,84,409.0995,False,False,other
-2022,M,85,389.2505,False,False,other
-2022,F,85,389.2505,False,False,other
-2022,M,86,351.4685,False,False,other
-2022,F,86,351.4685,False,False,other
-2022,M,87,302.1955,False,False,other
-2022,F,87,302.1955,False,False,other
-2022,M,88,257.5455,False,False,other
-2022,F,88,257.5455,False,False,other
-2022,M,89,217.6625,False,False,other
-2022,F,89,217.6625,False,False,other
-2022,M,90,181.538,False,False,other
-2022,F,90,181.538,False,False,other
-2022,M,91,149.2995,False,False,other
-2022,F,91,149.2995,False,False,other
-2022,M,92,120.1575,False,False,other
-2022,F,92,120.1575,False,False,other
-2022,M,93,95.6435,False,False,other
-2022,F,93,95.6435,False,False,other
-2022,M,94,75.4425,False,False,other
-2022,F,94,75.4425,False,False,other
-2022,M,95,58.334,False,False,other
-2022,F,95,58.334,False,False,other
-2022,M,96,42.34,False,False,other
-2022,F,96,42.34,False,False,other
-2022,M,97,28.439,False,False,other
-2022,F,97,28.439,False,False,other
-2022,M,98,18.1285,False,False,other
-2022,F,98,18.1285,False,False,other
-2022,M,99,11.223,False,False,other
-2022,F,99,11.223,False,False,other
-2022,M,100,16.547,False,False,other
-2022,F,100,16.547,False,False,other
+age,generation,F,M
+0,other,418.5885,418.5885
+1,other,422.3065,422.3065
+2,other,422.656,422.656
+3,other,430.0435,430.0435
+4,other,446.6255,446.6255
+5,other,472.0745,472.0745
+6,other,498.6245,498.6245
+7,other,508.128,508.128
+8,other,514.9455,514.9455
+9,other,521.8975,521.8975
+10,other,525.7495,525.7495
+11,other,535.1305,535.1305
+12,other,544.148,544.148
+13,other,551.2155,551.2155
+14,other,556.7375,556.7375
+15,other,557.5255,557.5255
+16,other,554.132,554.132
+17,other,558.7955,558.7955
+18,other,572.3695,572.3695
+19,other,586.2335,586.2335
+20,other,599.554,599.554
+21,other,613.289,613.289
+22,other,617.635,617.635
+23,other,617.837,617.837
+24,other,621.5865,621.5865
+25,other,622.9625,622.9625
+26,other,620.325,620.325
+27,other,626.2075,626.2075
+28,other,627.2695,627.2695
+29,other,621.0315,621.0315
+30,other,629.1565,629.1565
+31,other,631.607,631.607
+32,other,637.2015,637.2015
+33,other,656.832,656.832
+34,other,673.471,673.471
+35,other,677.1095,677.1095
+36,other,689.6895,689.6895
+37,other,710.474,710.474
+38,other,721.7275,721.7275
+39,other,726.587,726.587
+40,other,731.826,731.826
+41,other,755.1195,755.1195
+42,Lost generation,787.933,787.933
+43,Lost generation,818.545,818.545
+44,Lost generation,848.246,848.246
+45,Lost generation,879.102,879.102
+46,Lost generation,917.1645,917.1645
+47,Lost generation,964.5375,964.5375
+48,Lost generation,1005.2485,1005.2485
+49,Lost generation,1002.25,1002.25
+50,Lost generation,968.5185,968.5185
+51,Lost generation,935.104,935.104
+52,Lost generation,907.0575,907.0575
+53,other,893.998,893.998
+54,other,903.298,903.298
+55,other,794.97,794.97
+56,other,758.6345,758.6345
+57,other,831.076,831.076
+58,other,803.9585,803.9585
+59,other,771.2505,771.2505
+60,other,746.322,746.322
+61,other,732.905,732.905
+62,other,728.4475,728.4475
+63,other,727.9195,727.9195
+64,other,707.095,707.095
+65,other,699.1045,699.1045
+66,other,721.8175,721.8175
+67,other,727.469,727.469
+68,other,730.8155,730.8155
+69,other,756.5045,756.5045
+70,other,791.599,791.599
+71,other,836.565,836.565
+72,Babyboomers,922.079,922.079
+73,Babyboomers,978.8395,978.8395
+74,Babyboomers,950.115,950.115
+75,Babyboomers,783.0655,783.0655
+76,Babyboomers,599.6595,599.6595
+77,Babyboomers,592.562,592.562
+78,other,635.1025,635.1025
+79,other,632.766,632.766
+80,other,615.8465,615.8465
+81,other,567.829,567.829
+82,other,485.4925,485.4925
+83,other,428.308,428.308
+84,other,409.0995,409.0995
+85,other,389.2505,389.2505
+86,other,351.4685,351.4685
+87,other,302.1955,302.1955
+88,other,257.5455,257.5455
+89,other,217.6625,217.6625
+90,other,181.538,181.538
+91,other,149.2995,149.2995
+92,other,120.1575,120.1575
+93,other,95.6435,95.6435
+94,other,75.4425,75.4425
+95,other,58.334,58.334
+96,other,42.34,42.34
+97,other,28.439,28.439
+98,other,18.1285,18.1285
+99,other,11.223,11.223
+100,other,16.547,16.547
