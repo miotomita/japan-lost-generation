@@ -3,9 +3,9 @@ const margin = {top: 60, right: 230, bottom: 50, left: 50},
     width = 660 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
-// append the svg2 object to the body of the page
-const svg2 = d3.select("#my_dataviz2")
-  .append("svg2")
+// append the svg object to the body of the page
+const svg = d3.select("#my_dataviz2")
+  .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -43,19 +43,19 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   const x = d3.scaleLinear()
     .domain(d3.extent(data, function(d) { return d.year; }))
     .range([ 0, width ]);
-  const xAxis = svg2.append("g")
+  const xAxis = svg.append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x).ticks(5))
 
   // Add X axis label:
-  svg2.append("text")
+  svg.append("text")
       .attr("text-anchor", "end")
       .attr("x", width)
       .attr("y", height+40 )
       .text("Age");
 
   // Add Y axis label:
-  svg2.append("text")
+  svg.append("text")
       .attr("text-anchor", "end")
       .attr("x", 0)
       .attr("y", -20 )
@@ -66,7 +66,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   const y = d3.scaleLinear()
     .domain([0, 200000])
     .range([ height, 0 ]);
-  svg2.append("g")
+  svg.append("g")
     .call(d3.axisLeft(y).ticks(5))
 
 
@@ -76,9 +76,9 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   //////////
 
   // Add a clipPath: everything out of this area won't be drawn.
-  const clip = svg2.append("defs").append("svg2:clipPath")
+  const clip = svg.append("defs").append("svg:clipPath")
       .attr("id", "clip")
-      .append("svg2:rect")
+      .append("svg:rect")
       .attr("width", width )
       .attr("height", height )
       .attr("x", 0)
@@ -90,7 +90,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
 
   // Create the scatter variable: where both the circles and the brush take place
-  const areaChart = svg2.append('g')
+  const areaChart = svg.append('g')
     .attr("clip-path", "url(#clip)")
 
   // Area generator
@@ -166,7 +166,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
     // Add one dot in the legend for each name.
     const size = 20
-    svg2.selectAll("myrect")
+    svg.selectAll("myrect")
       .data(keys)
       .join("rect")
         .attr("x", 400)
@@ -178,7 +178,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
         .on("mouseleave", noHighlight)
 
     // Add one dot in the legend for each name.
-    svg2.selectAll("mylabels")
+    svg.selectAll("mylabels")
       .data(keys)
       .join("text")
         .attr("x", 400 + size*1.2)
