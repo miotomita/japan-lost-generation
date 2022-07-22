@@ -97,3 +97,12 @@ nav {
     margin-left: 2rem;
   }
 }
+
+#all{
+  width:100%;
+  float:left;
+  text-align:center;
+}
+div.sub, iframe {
+  margin: 0 auto;
+}
